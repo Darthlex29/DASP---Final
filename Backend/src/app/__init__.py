@@ -1,6 +1,6 @@
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
-from config import app_config
+from .utils import app_config
 from flask_cors import CORS
 from .utils import loginManagerApp#, csrf
 
